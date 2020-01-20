@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wong.layout.MySecondLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wong.layout.MainMySecondLayoutActivity">
+
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        app:layout_position="left"
+        android:text="按钮1" />
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        app:layout_position="right"
+        android:text="按钮2" />
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        app:layout_position="center"
+        android:text="按钮3" />
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        app:layout_position="bottom"
+        android:text="按钮4" />
+    <Button
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        app:layout_position="rightAndBottom"
+        android:text="按钮5" />
+
+</com.wong.layout.MySecondLayout>
