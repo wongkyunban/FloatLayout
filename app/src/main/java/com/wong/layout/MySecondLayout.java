@@ -100,11 +100,6 @@ public class MySecondLayout extends ViewGroup {
     /**
      * 对子控件进行摆放
      *
-     * @param changed
-     * @param l       距父容器的左边距
-     * @param t       距父容器的顶边距
-     * @param r       距父容器的右边距
-     * @param b       距父容器的底边距
      */
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
